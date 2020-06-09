@@ -1,3 +1,35 @@
+
+
+body {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Grayscale v6.0.1 (https://startbootstrap.com/themes/grayscale)
@@ -2785,13 +2817,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #6c757d;
+  color: #C6C6C63;
   border-color: #6c757d;
+  transition: all ease-in-out .4s;
 }
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #6c757d;
+  background-color: black;
   border-color: #6c757d;
+  opacity: .6;
+
 }
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
   box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
@@ -10234,8 +10269,8 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
-.masthead h1 {
-
+.masthead h2 {
+  font-family: 'Khand', sans-serif;
   font-size: .5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -10245,11 +10280,12 @@ body {
           background-clip: text;
 }
 .masthead h2 {
-  max-width: 20rem;
-  font-size: 1rem;
+  max-width: 50rem;
+  font-size: 2.5rem;
+  line-height: 4rem;
 }
 @media (min-width: 768px) {
-  .masthead h1 {
+  .masthead h2 {
     font-size: 4rem;
     line-height: 4rem;
   }
@@ -10261,12 +10297,12 @@ body {
   }
   .masthead h1 {
     font-size: 6.5rem;
-    line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
+    max-width: 50rem;
+    font-size: 4.5rem;
+    line-height: 6.5rem;
   }
 }
 
